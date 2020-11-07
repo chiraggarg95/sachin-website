@@ -1,0 +1,74 @@
+nav.navbar .navbar-brand{
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 15px !important;
+    font-size: 1.2rem;
+    transition: all 0.1s ease-in-out;
+}
+
+.navbar-nav .nav-item:hover{
+    border-bottom: 3px solid black;
+}
+
+.landing{
+    background-image: url(./images/landing-page.jpg);
+    height: 60%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.landing .lander-content{
+    height: 60%;
+    padding: 10% 5%;
+}
+
+.landing .tagline{
+    font-size: 3.3rem;
+    color: green;
+    font-variant: small-caps;
+    font-weight: 750;
+}
+
+.landing .caption{
+    font-size: 2.1rem;
+    color: green;
+}
+
+.landing .product-btn{
+    position: absolute;
+    bottom: 10px;
+    margin: 0 auto;
+}
+
+
+.performance-wrapper{
+    background-color: rgba(243, 212, 172, 0.966);
+}
+
+.performance-wrapper .number{
+    font-size: 3.5rem;
+}
+
+.performance-wrapper .text{
+    font-size: 1.1rem;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.about-wrapper .about-heading{
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.quality-wrapper .quality-heading{
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
