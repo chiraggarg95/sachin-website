@@ -13,7 +13,7 @@ nav.navbar .navbar-brand{
 }
 
 .landing{
-    background-image: url(./images/landing-page.jpg);
+    background-image: url(./images/landing-img-final.png);
     height: 60%;
     background-attachment: fixed;
     background-position: center;
@@ -29,7 +29,7 @@ nav.navbar .navbar-brand{
 
 .landing .tagline{
     font-size: 3.3rem;
-    color: green;
+    color: #134872;
     font-variant: small-caps;
     font-weight: 750;
 }
@@ -45,7 +45,7 @@ nav.navbar .navbar-brand{
     margin: 0 auto;
 }
 
-.products-wrapper .products-names .product-box{
+/* .products-wrapper .products-names .product-box{
     height: 300px;
     width: 300px;
     color: whitesmoke;
@@ -74,7 +74,42 @@ nav.navbar .navbar-brand{
 
 .products-wrapper .products-names .pdt-name{
     font-size: 2rem;
-    /* align-items: center; */
+    text-align: center;
+} */
+
+.products-wrapper-1 .products-names .product-box{
+    height: 600px;
+    width: 300px;
+    color: whitesmoke;
+}
+
+.pdt-odd{
+    background-color: #ed1c24;
+}
+
+.pdt-even{
+    background-color: #134872;
+}
+
+.pdt-heading{
+    background-color: gray;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.products-wrapper-1 .pdt-heading div.pdt-number{
+    font-size: 3.5rem;
+}
+
+.products-wrapper-1 .products-names .pdt-number{
+    font-size: 3rem;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+}
+
+.products-wrapper-1 .products-names .pdt-name{
+    font-size: 2rem;
     text-align: center;
 }
 
@@ -94,14 +129,30 @@ nav.navbar .navbar-brand{
     text-transform: uppercase;
 }
 
+.about-wrapper{
+    background-color: honeydew;
+}
+
 .about-wrapper .about-heading{
     font-size: 3rem;
     font-weight: 700;
     text-transform: uppercase;
 }
 
+.about-wrapper .about-content{
+    font-size: 1.1rem;
+}
+
+.quality-wrapper{
+    background-color: honeydew;
+}
+
 .quality-wrapper .quality-heading{
     font-size: 3rem;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+.quality-wrapper .quality-content{
+    font-size: 1.1rem;
 }
