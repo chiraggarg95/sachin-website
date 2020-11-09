@@ -1,10 +1,16 @@
+nav.navbar{
+    background-color: #134872;
+}
+
 nav.navbar .navbar-brand{
     font-size: 1.5rem;
+    color: whitesmoke;
 }
 
 .navbar-nav .nav-item {
     margin: 0 15px !important;
     font-size: 1.2rem;
+    color: whitesmoke !important;
     transition: all 0.1s ease-in-out;
 }
 
@@ -110,6 +116,42 @@ nav.navbar .navbar-brand{
 
 .products-wrapper-1 .products-names .pdt-name{
     font-size: 2rem;
+    text-align: center;
+}
+
+.pdt-info-wrapper .pdt-info-heading-main{
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.pdt-info-wrapper .pdts-info-container .pdt-title{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 650;
+}
+
+.pdt-info-wrapper .pdts-info-container .pdt-info .summary-name{
+    text-transform: capitalize;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.pdt-info-wrapper .pdts-info-container .pdt-info .summary-content{
+    font-size: 1.1rem;
+}
+
+.pdt-info-wrapper .pdts-info-container .pdt-appli .appli-name, .sizeLim-name{
+    text-transform: capitalize;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.pdt-info-wrapper .pdts-info-container .pdt-appli .appli-content, .sizeLim-content{
+    font-size: 1.1rem;
+}
+
+.pdt-data table *{
     text-align: center;
 }
 
