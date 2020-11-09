@@ -45,6 +45,39 @@ nav.navbar .navbar-brand{
     margin: 0 auto;
 }
 
+.products-wrapper .products-names .product-box{
+    height: 300px;
+    width: 300px;
+    color: whitesmoke;
+}
+
+.pdt-odd{
+    background-color: #ed1c24;
+}
+
+.pdt-even{
+    background-color: #134872;
+}
+
+.pdt-heading{
+    background-color: gray;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.products-wrapper .products-names .pdt-number{
+    font-size: 3rem;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+}
+
+.products-wrapper .products-names .pdt-name{
+    font-size: 2rem;
+    /* align-items: center; */
+    text-align: center;
+}
+
 
 .performance-wrapper{
     background-color: rgba(243, 212, 172, 0.966);
