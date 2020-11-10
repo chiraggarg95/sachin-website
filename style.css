@@ -125,6 +125,10 @@ nav.navbar .navbar-brand{
     text-transform: uppercase;
 }
 
+.pdt-info-wrapper .pdts-info-container > div > div {
+    margin: 5px 0px;
+}
+
 .pdt-info-wrapper .pdts-info-container .pdt-title{
     text-transform: uppercase;
     font-size: 2rem;
@@ -149,6 +153,16 @@ nav.navbar .navbar-brand{
 
 .pdt-info-wrapper .pdts-info-container .pdt-appli .appli-content, .sizeLim-content{
     font-size: 1.1rem;
+}
+
+.pdt-info-wrapper .pdts-info-container .pdt-img img{
+    height: 240px;
+    width: auto;
+}
+
+.pdt-info-wrapper .pdts-info-container .pdt-graph img{
+    width: 400px;
+    height: 400px;
 }
 
 .pdt-data table *{
