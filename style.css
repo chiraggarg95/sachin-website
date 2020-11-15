@@ -2,6 +2,10 @@ html{
     scroll-behavior: smooth;
 }
 
+body{
+    background-color: honeydew;
+}
+
 nav.navbar{
     background-color: #134872;
 }
@@ -229,4 +233,8 @@ nav.navbar .navbar-brand{
 
 .pdts-info-container .hide{
     display: none;
+}
+
+footer{
+    background-color: #134872;
 }
