@@ -13,18 +13,20 @@ function hide() {
 }
 
 function showInfo(num) {
-    
+
+
+        
     hide();
-
+    
     var i;
-
+    
     for(i=0; i<arguments.length; i++){
         name = "pdt-" + String(i);
         name = String(name);
         document.getElementById("pdt-"+arguments[i]).classList.remove("hide");
         // console.log('"' + name + '"');
     }
-
+    
     document.getElementById("pdt-"+arguments[0]).scrollIntoView();
     
 }
