@@ -203,6 +203,11 @@ nav.navbar .navbar-brand{
     font-size: 1.1rem;
 }
 
+.about-wrapper .about-img img{
+    height: 350px;
+    width: auto;
+}
+
 .quality-wrapper{
     background-color: honeydew;
 }
@@ -215,6 +220,11 @@ nav.navbar .navbar-brand{
 
 .quality-wrapper .quality-content{
     font-size: 1.1rem;
+}
+
+.quality-wrapper .quality-img img{
+    height: 450px;
+    width: auto;
 }
 
 .pdts-info-container .hide{

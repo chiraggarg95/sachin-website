@@ -11,7 +11,7 @@
 <body>
 
 
-<nav class="navbar navbar-expand-lg navbar-light navbar-fixed">
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
     <a class="navbar-brand" href="#">Jpan Rolls</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -19,10 +19,10 @@
     <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
         <div class="navbar-nav">
             <a class="nav-item nav-link active mr-2 ml-2" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link mr-2 ml-2" href="#about-us">About Us</a>
-            <a class="nav-item nav-link mr-2 ml-2" href="#product-names">Products</a>
-            <a class="nav-item nav-link mr-2 ml-2" href="#performance">Performance</a>
-            <a class="nav-item nav-link mr-2 ml-2" href="#quality">Quality</a>
+            <a class="nav-item nav-link mr-2 ml-2" onclick="scrollto('about-us')">About Us</a>
+            <a class="nav-item nav-link mr-2 ml-2" onclick="scrollto('product-names')">Products</a>
+            <a class="nav-item nav-link mr-2 ml-2" onclick="scrollto('performance')">Performance</a>
+            <a class="nav-item nav-link mr-2 ml-2" onclick="scrollto('quality')">Quality</a>
         </div>
     </div>
 </nav>
@@ -1156,7 +1156,12 @@
             <div class="col-12 about-heading d-flex justify-content-center">
                 About Us
             </div>
-            <div class="col-12 about-content">
+
+            <div class="col-4 about-img align-self-center">
+                <img src="./images/aboutuspng.png" alt="">
+            </div>
+
+            <div class="col-8 about-content">
                 <div class="container">
                     JPan Rolls India is one of India’s leading rolls manufacturer and supplier. 
                     We are a group with manufacturing arms in Refrigeration and air conditioning products, Coal Distribution and other farming equipment. 
@@ -1185,7 +1190,7 @@
             <div class="col-12 quality-heading d-flex justify-content-center" id="quality">
                 Quality
             </div>
-            <div class="col-12 quality-content">
+            <div class="col-8 quality-content">
                 <div class="container">
                     We Are Determined To Win Patronage Of Our Customers, Suppliers And Employees With Long Lasting Relationship By:
                     <ul>
@@ -1218,6 +1223,9 @@
                     As a minimum, cast analysis, hardness ultrasonic and dimensional assessments are carried out, but a whole range of supplementary special product and process checks are also used. 
                     This recognition of a strong Quality assurance ethic is a clear reminder of our commitment to provide customers with a high integrity product at all times and remains an important keystone of our business policy.
                 </div>
+            </div>
+            <div class="col-4 quality-img">
+                <img src="./images/quality.png" alt="quality-img">
             </div>
         </div>
     </div>

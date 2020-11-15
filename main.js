@@ -30,3 +30,22 @@ function showInfo(num) {
     document.getElementById("pdt-"+arguments[0]).scrollIntoView();
     
 }
+
+var navbarHt = document.getElementById('navbar').offsetHeight;
+
+function scrollto(id){
+    // document.getElementById(id).scrollIntoView();
+
+    const element = document.getElementById(id);
+    const offset = document.getElementById('navbar').offsetHeight;
+    const bodyRect = document.body.getBoundingClientRect().top;
+    const elementRect = element.getBoundingClientRect().top;
+    const elementPosition = elementRect - bodyRect;
+    const offsetPosition = elementPosition - offset;
+
+    window.scrollTo({
+    top: offsetPosition,
+    behavior: 'smooth'
+    });
+
+}
