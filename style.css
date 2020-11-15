@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 nav.navbar{
     background-color: #134872;
 }
@@ -211,4 +215,8 @@ nav.navbar .navbar-brand{
 
 .quality-wrapper .quality-content{
     font-size: 1.1rem;
+}
+
+.pdts-info-container .hide{
+    display: none;
 }
