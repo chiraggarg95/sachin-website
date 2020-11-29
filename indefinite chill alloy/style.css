@@ -25,10 +25,7 @@ nav.navbar .navbar-brand{
 .navbar-nav .nav-item.active {
     background-color: lightblue;
     color: #134872 !important;
-}
-
-.navbar-nav .nav-item:hover{
-    border-bottom: 3px solid black;
+    border-radius: 20px;
 }
 
 .landing{
@@ -152,6 +149,7 @@ nav.navbar .navbar-brand{
     text-transform: capitalize;
     font-size: 1.7rem;
     font-weight: 500;
+    margin: 10px 0px;
 }
 
 .pdt-info-wrapper .pdts-info-container .pdt-info .summary-content{

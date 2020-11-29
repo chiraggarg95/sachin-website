@@ -25,10 +25,7 @@ nav.navbar .navbar-brand{
 .navbar-nav .nav-item.active {
     background-color: lightblue;
     color: #134872 !important;
-}
-
-.navbar-nav .nav-item:hover{
-    border-bottom: 3px solid black;
+    border-radius: 20px;
 }
 
 .landing{
