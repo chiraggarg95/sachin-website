@@ -3,7 +3,7 @@ html{
 }
 
 nav.navbar{
-    background-color: #134872;
+    background-color: #14213d;
 }
 
 nav.navbar .navbar-brand{
@@ -44,7 +44,7 @@ nav.navbar .navbar-brand:hover{
 .landing .tagline{
     font-size: 3.3rem;
     background-color: rgba(248, 248, 248, 0.89);
-    color: #134872;
+    color: #14213d;
     font-variant: small-caps;
     font-weight: 750;
     border-radius: 20px;
@@ -69,11 +69,11 @@ nav.navbar .navbar-brand:hover{
 }
 
 .pdt-odd{
-    background-color: #ed1c24;
+    background-color: #2b3750;
 }
 
 .pdt-even{
-    background-color: #134872;
+    background-color: #14213d;
 }
 
 .pdt-heading{
@@ -102,16 +102,23 @@ nav.navbar .navbar-brand:hover{
 }
 
 .products-wrapper-1 .products-names .product-box a:hover{
+    transform: scale(1.05);
+    z-index: 1000;
+    border-radius: 20px;
+    transition: all 0.8s ease-in-out;
+}
+
+.products-wrapper-1 .products-names .product-box a:hover{
     color: white;
     text-decoration: none;
 }
 
 .pdt-odd{
-    background-color: #ed1c24;
+    background-color: #2b3750;
 }
 
 .pdt-even{
-    background-color: #134872;
+    background-color: #14213d;
 }
 
 .pdt-heading{
@@ -239,5 +246,5 @@ nav.navbar .navbar-brand:hover{
 }
 
 footer{
-    background-color: #134872;
+    background-color: #14213d;
 }

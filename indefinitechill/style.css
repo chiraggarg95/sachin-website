@@ -3,7 +3,7 @@ html{
 }
 
 nav.navbar{
-    background-color: #134872;
+    background-color: #14213d;
 }
 
 nav.navbar .navbar-brand{
@@ -24,7 +24,7 @@ nav.navbar .navbar-brand:hover{
 
 .navbar-nav .nav-item.active {
     background-color: lightblue;
-    color: #134872 !important;
+    color: #14213d !important;
     border-radius: 20px;
 }
 
@@ -45,7 +45,7 @@ nav.navbar .navbar-brand:hover{
 
 .landing .tagline{
     font-size: 3.3rem;
-    color: #134872;
+    color: #14213d;
     font-variant: small-caps;
     font-weight: 750;
 }
@@ -68,11 +68,11 @@ nav.navbar .navbar-brand:hover{
 }
 
 .pdt-odd{
-    background-color: #ed1c24;
+    background-color: #2b3750;
 }
 
 .pdt-even{
-    background-color: #134872;
+    background-color: #14213d;
 }
 
 .pdt-heading{
@@ -100,11 +100,11 @@ nav.navbar .navbar-brand:hover{
 }
 
 .pdt-odd{
-    background-color: #ed1c24;
+    background-color: #2b3750;
 }
 
 .pdt-even{
-    background-color: #134872;
+    background-color: #14213d;
 }
 
 .pdt-heading{
@@ -231,5 +231,5 @@ nav.navbar .navbar-brand:hover{
 }
 
 footer{
-    background-color: #134872;
+    background-color: #14213d;
 }
