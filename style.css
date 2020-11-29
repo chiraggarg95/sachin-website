@@ -28,7 +28,7 @@ nav.navbar .navbar-brand:hover{
 
 .landing{
     background-image: url(./images/landing-img-final.png);
-    height: 60%;
+    height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -49,11 +49,16 @@ nav.navbar .navbar-brand:hover{
     font-weight: 750;
     border-radius: 20px;
     padding: 10px;
+    margin-bottom: 40px;
 }
 
 .landing .caption{
-    font-size: 2.1rem;
-    color: green;
+    margin-top: 20px;
+    font-size: 1.7rem;
+    color: #14213d;
+    background-color: rgba(248, 248, 248, 0.89);
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .landing .product-btn{
