@@ -43,7 +43,7 @@ nav.navbar .navbar-brand:hover{
 
 .landing .tagline{
     font-size: 3.3rem;
-    background-color: rgba(248, 248, 248, 0.89);
+    background-color: rgba(248, 248, 248, 0.50);
     color: #14213d;
     font-variant: small-caps;
     font-weight: 750;
@@ -56,9 +56,10 @@ nav.navbar .navbar-brand:hover{
     margin-top: 20px;
     font-size: 1.7rem;
     color: #14213d;
-    background-color: rgba(248, 248, 248, 0.89);
+    background-color: rgba(248, 248, 248, 0.50);
     border-radius: 20px;
-    padding: 10px;
+    padding: 15px;
+    font-weight: 650;
 }
 
 .landing .product-btn{
@@ -127,7 +128,7 @@ nav.navbar .navbar-brand:hover{
 }
 
 .pdt-heading{
-    background-color: gray;
+    background-color: #555F73;
     align-items: center;
     text-transform: uppercase;
 }
@@ -202,7 +203,8 @@ nav.navbar .navbar-brand:hover{
 
 
 .performance-wrapper{
-    background-color: rgba(243, 212, 172, 0.966);
+    background-color: #555F73;
+    color: white;
 }
 
 .performance-wrapper .number{
