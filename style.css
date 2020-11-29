@@ -2,10 +2,6 @@ html{
     scroll-behavior: smooth;
 }
 
-body{
-    background-color: honeydew;
-}
-
 nav.navbar{
     background-color: #134872;
 }
@@ -13,6 +9,10 @@ nav.navbar{
 nav.navbar .navbar-brand{
     font-size: 1.5rem;
     color: whitesmoke;
+}
+
+nav.navbar .navbar-brand:hover{
+    color: white;
 }
 
 .navbar-nav .nav-item {
@@ -23,7 +23,7 @@ nav.navbar .navbar-brand{
 }
 
 .navbar-nav .nav-item:hover{
-    border-bottom: 3px solid black;
+    cursor: pointer;
 }
 
 .landing{
@@ -43,9 +43,12 @@ nav.navbar .navbar-brand{
 
 .landing .tagline{
     font-size: 3.3rem;
+    background-color: rgba(248, 248, 248, 0.89);
     color: #134872;
     font-variant: small-caps;
     font-weight: 750;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .landing .caption{
@@ -201,10 +204,6 @@ nav.navbar .navbar-brand{
     text-transform: uppercase;
 }
 
-.about-wrapper{
-    background-color: honeydew;
-}
-
 .about-wrapper .about-heading{
     font-size: 3rem;
     font-weight: 700;
@@ -216,12 +215,8 @@ nav.navbar .navbar-brand{
 }
 
 .about-wrapper .about-img img{
-    height: 350px;
+    height: 200px;
     width: auto;
-}
-
-.quality-wrapper{
-    background-color: honeydew;
 }
 
 .quality-wrapper .quality-heading{
@@ -235,7 +230,7 @@ nav.navbar .navbar-brand{
 }
 
 .quality-wrapper .quality-img img{
-    height: 450px;
+    height: 200px;
     width: auto;
 }
 
