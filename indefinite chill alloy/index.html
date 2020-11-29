@@ -18,22 +18,23 @@
     </button>
     <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-            <a class="nav-item nav-link active mr-2 ml-2" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link mr-2 ml-2" onclick="scrollto('about-us')">About Us</a>
-            <a class="nav-item nav-link mr-2 ml-2" onclick="scrollto('product-names')">Products</a>
-            <a class="nav-item nav-link mr-2 ml-2" onclick="scrollto('performance')">Performance</a>
-            <a class="nav-item nav-link mr-2 ml-2" onclick="scrollto('quality')">Quality</a>
+            <a class="nav-item nav-link active mr-2 ml-2" href="#">Indefinite chill alloy cast iron rolls <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link mr-2 ml-2" onclick="scrollto('about-us')">Spherical Graphite rolls</a>
+            <a class="nav-item nav-link mr-2 ml-2" onclick="scrollto('product-names')">Adamant rolls (Steel alloy base)</a>
+            <a class="nav-item nav-link mr-2 ml-2" onclick="scrollto('performance')">High End Rolls</a>
+            <a class="nav-item nav-link mr-2 ml-2" onclick="scrollto('quality')">Forged Rolls</a>
+            <a class="nav-item nav-link mr-2 ml-2" onclick="scrollto('quality')">Machinery Rolls</a>
         </div>
     </div>
 </nav>
 
-<div class="landing mt-5">
+<!-- <div class="landing mt-5">
     
     <div class="container lander-content">
         <h1 class="tagline">leading manufactures and suppliers of Rolls in india</h1>
     </div>
     
-</div>
+</div> -->
 
 <!-- <div class="products-wrapper">
     <div class="row products-names  d-flex justify-content-center">
@@ -114,7 +115,7 @@
     </div>
 </div> -->
 
-<div class="products-wrapper-1 mb-5" id="product-names">
+<!-- <div class="products-wrapper-1 mb-5" id="product-names">
     <div class="row products-names d-flex justify-content-center">
         <div class="col-3 product-box pdt-heading d-flex justify-content-center">
             <div class="row">
@@ -126,69 +127,84 @@
 
         <div class="col-3 product-box d-flex justify-content-center">
             <div class="row">
-                <a href="/indefinite chill alloy/index.html" class="col-12 pdt-odd d-flex justify-content-center">
+                <div class="col-12 pdt-odd d-flex justify-content-center" onclick="showInfo(1)">
                     <div class="row d-flex justify-content-center">
-                        <!-- <div class="col-12 d-flex justify-content-center pdt-number">
+                        <div class="col-12 d-flex justify-content-center pdt-number">
                             01
-                        </div> -->
-                        <div class="col-12 d-flex justify-content-center pdt-name align-self-center">
+                        </div>
+                        <div class="col-12 d-flex justify-content-center pdt-name">
                             Indefinite chill alloy cast iron rolls
                         </div>
                     </div>
-                </a>
+                </div>
 
-                <a href="/high end/index.html" class="col-12 pdt-even d-flex justify-content-center">
+                <div class="col-12 pdt-even d-flex justify-content-center" onclick="showInfo(4, 5)">
                     <div class="row d-flex justify-content-center">
-                        <div class="col-12 d-flex justify-content-center pdt-name align-self-center">
-                            High end rolls
+                        <div class="col-12 d-flex justify-content-center pdt-number">
+                            04
+                        </div>
+                        <div class="col-12 d-flex justify-content-center pdt-name">
+                            High end rolls: Tungsten carbide rolls & HSS rolls
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
         </div>
 
         <div class="col-3 product-box d-flex justify-content-center">
             <div class="row">
-                <a href="/spherical graphite/index.html" class="col-12 pdt-even d-flex justify-content-center">
+                <div class="col-12 pdt-even d-flex justify-content-center" onclick="showInfo(2)">
                     <div class="row d-flex justify-content-center">
-                        <div class="col-12 d-flex justify-content-center pdt-name align-self-center">
+                        <div class="col-12 d-flex justify-content-center pdt-number">
+                            02
+                        </div>
+                        <div class="col-12 d-flex justify-content-center pdt-name">
                             Spherical Graphite rolls
                         </div>
                     </div>
-                </a>
+                </div>
 
-                <a href="/forged/index.html" class="col-12 pdt-odd d-flex justify-content-center">
+                <div class="col-12 pdt-odd d-flex justify-content-center" onclick="showInfo(6)">
                     <div class="row d-flex justify-content-center">
-                        <div class="col-12 d-flex justify-content-center pdt-name align-self-center">
+                        <div class="col-12 d-flex justify-content-center pdt-number">
+                            05
+                        </div>
+                        <div class="col-12 d-flex justify-content-center pdt-name">
                             Forged Rolls
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
         </div>
 
         <div class="col-3 product-box d-flex justify-content-center">
             <div class="row">
-                <a href="/adamite/index.html" class="col-12 pdt-odd d-flex justify-content-center" onclick="showInfo(3)">
+                <div class="col-12 pdt-odd d-flex justify-content-center" onclick="showInfo(3)">
                     <div class="row d-flex justify-content-center">
-                        <div class="col-12 d-flex justify-content-center pdt-name align-self-center">
-                            Adamite rolls (Steel alloy base) 
+                        <div class="col-12 d-flex justify-content-center pdt-number">
+                            03
+                        </div>
+                        <div class="col-12 d-flex justify-content-center pdt-name">
+                            Adamant rolls (Steel alloy base) 
                         </div>
                     </div>
-                </a>
+                </div>
 
-                <a href="/machinery/index.html" class="col-12 pdt-even d-flex justify-content-center" onclick="showInfo(7)">
+                <div class="col-12 pdt-even d-flex justify-content-center" onclick="showInfo(7)">
                     <div class="row d-flex justify-content-center">
-                        <div class="col-12 d-flex justify-content-center pdt-name align-self-center">
+                        <div class="col-12 d-flex justify-content-center pdt-number">
+                            06
+                        </div>
+                        <div class="col-12 d-flex justify-content-center pdt-name">
                             Machinery rolls 
                         </div>
                     </div>
-                </a>
+                </div>
             </div>
         </div>
 
     </div>
-</div>
+</div> -->
 
 <div class="pdt-info-wrapper">
     <div class="container">
@@ -197,8 +213,8 @@
                 Our Products
             </div> -->
             <div class="col-12 pdts-info-container">
-                <div class="row indi-pdt hide" id="pdt-1">
-                    <div class="col-12 pdt-title align-self-center">
+                <div class="row indi-pdt" id="pdt-1">
+                    <div class="col-12 pdt-title align-self-center" style="margin-top: 90px;">
                         Indefinite Chill Alloy cast Iron rolls
                     </div>
                     
@@ -304,15 +320,15 @@
                     </div>
 
                     <div class="col-4 pdt-img align-self-center">
-                        <img src="./images/pdt-1-img.png" alt="pdt-1-image">
+                        <img src="../images/pdt-1-img.png" alt="pdt-1-image">
                     </div>
 
                     <div class="col-12 d-flex justify-content-center pdt-graph align-self-center">
-                        <img src="./images/pdt-1-graph.png" alt="pdt-1-graph" srcset="">
+                        <img src="../images/pdt-1-graph.png" alt="pdt-1-graph" srcset="">
                     </div>
                 </div>
 
-                <div class="row indi-pdt hide" id="pdt-2">
+                <!-- <div class="row indi-pdt hide" id="pdt-2">
                     <div class="col-12 pdt-title align-self-center">
                         Spherical Graphite rolls 
                     </div>
@@ -461,9 +477,9 @@
                     <div class="col-12 d-flex justify-content-center pdt-graph align-self-center">
                         <img src="./images/pdt-2-graph.png" alt="pdt-2-graph" srcset="">
                     </div>
-                </div>
+                </div> -->
 
-                <div class="row indi-pdt hide" id="pdt-3">
+                <!-- <div class="row indi-pdt hide" id="pdt-3">
                     <div class="col-12 pdt-title align-self-center">
                         Adamite Rolls (Steel Alloy Base)
                     </div>
@@ -565,9 +581,9 @@
                     <div class="col-12 d-flex justify-content-center pdt-graph align-self-center">
                         <img src="./images/pdt-3-graph.png" alt="pdt-3-graph" srcset="">
                     </div>
-                </div>
+                </div> -->
 
-                <div class="row indi-pdt hide" id="pdt-4">
+                <!-- <div class="row indi-pdt hide" id="pdt-4">
                     <div class="col-12 pdt-title align-self-center">
                         High End Rolls: Tungsten carbide rolls
                     </div>
@@ -595,90 +611,9 @@
                             It can be used in the intermediate stands and blocks with a 3-ring layout as well as stretch reducing tube mills.
                         </div>
                     </div>
-                   
-                    <!-- <div class="col-4 pdt-img align-self-center">
-                        <img src="./images/pdt-1-img.png" alt="pdt-1-image">
-                    </div>
-                    
-                    <div class="col-7 mr-5 pdt-data  align-self-center">
-                        <table class="table table-sm table-hover table-bordered">
-                            <thead class="thead-dark">
-                                <tr>
-                                    <th>Indefinite Chilled Cast Iron Rolls</th>
-                                    <th>ICR1</th>
-                                    <th>ICR2</th>
-                                    <th>ICR3</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <thead class="thead-dark">
-                                    <tr>
-                                        <th scope="col" colspan="4">Composition (%wt)</th>
-                                    </tr>
-                                    </thead>
-                                <tbody>
-                                <tr>
-                                    <td>Carbon (C)</td>
-                                    <td>2.90-3.30</td>
-                                    <td>3.00-3.30</td>
-                                    <td>3.20-3.50</td>
-                                </tr>
-                                <tr>
-                                    <td>Silicon (Si)</td>
-                                    <td>0.80, MAX</td>
-                                    <td>0.80, MAX</td>
-                                    <td>0.80, MAX</td>
-                                </tr>
-                                <tr>
-                                    <td>Nickel (Ni)</td>
-                                    <td>0.50-0.80</td>
-                                    <td>0.80-1.20</td>
-                                    <td>1.20-1.50</td>
-                                </tr>
-                                <tr>
-                                    <td>Chromium (Cr)</td>
-                                    <td>0.50-1.00</td>
-                                    <td>1.00, MAX</td>
-                                    <td>1.00, MAX</td>
-                                </tr>
-                                <tr>
-                                    <td>Molybdenum (Mo)</td>
-                                    <td>0.10-0.30</td>
-                                    <td>0.10-0.30</td>
-                                    <td>0.10-0.30</td>
-                                </tr>
-                                <tr>
-                                    <td>Manganese (Mn)</td>
-                                    <td>0.20-0.40</td>
-                                    <td>0.20-0.40</td>
-                                    <td>0.20-0.40</td>
-                                </tr>
-                                <thead class="thead-dark">
-                                    <tr>
-                                        <th scope="col" colspan="4">Mechanical Properties</th>
-                                    </tr>
-                                    </thead>
-                                <tbody>
-                                <tr>
-                                    <td>Hardness (HSC)</td>
-                                    <td>55-60</td>
-                                    <td>60-65</td>
-                                    <td>65-70</td>
-                                </tr>
-                                <tr>
-                                    <td>Tensile Strength (N/mm2)</td>
-                                    <td colspan="3">250-400</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                </div> -->
 
-                    <div class="col-4 d-flex justify-content-center pdt-graph align-self-center">
-                        <img src="./images/pdt-1-graph.png" alt="pdt-1-graph" srcset="">
-                    </div> -->
-                </div>
-
-                <div class="row indi-pdt hide" id="pdt-5">
+                <!-- <div class="row indi-pdt hide" id="pdt-5">
                     <div class="col-12 pdt-title align-self-center">
                         High End Rolls: High Speed Steel (HSS) rolls
                     </div>
@@ -704,90 +639,9 @@
                             It can be used in hot strip mill finishing train, rod and bar mill finishing, and universal mill finishing.
                         </div>
                     </div>
-                   
-                    <!-- <div class="col-4 pdt-img align-self-center">
-                        <img src="./images/pdt-1-img.png" alt="pdt-1-image">
-                    </div>
-                    
-                    <div class="col-7 mr-5 pdt-data  align-self-center">
-                        <table class="table table-sm table-hover table-bordered">
-                            <thead class="thead-dark">
-                                <tr>
-                                    <th>Indefinite Chilled Cast Iron Rolls</th>
-                                    <th>ICR1</th>
-                                    <th>ICR2</th>
-                                    <th>ICR3</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <thead class="thead-dark">
-                                    <tr>
-                                        <th scope="col" colspan="4">Composition (%wt)</th>
-                                    </tr>
-                                    </thead>
-                                <tbody>
-                                <tr>
-                                    <td>Carbon (C)</td>
-                                    <td>2.90-3.30</td>
-                                    <td>3.00-3.30</td>
-                                    <td>3.20-3.50</td>
-                                </tr>
-                                <tr>
-                                    <td>Silicon (Si)</td>
-                                    <td>0.80, MAX</td>
-                                    <td>0.80, MAX</td>
-                                    <td>0.80, MAX</td>
-                                </tr>
-                                <tr>
-                                    <td>Nickel (Ni)</td>
-                                    <td>0.50-0.80</td>
-                                    <td>0.80-1.20</td>
-                                    <td>1.20-1.50</td>
-                                </tr>
-                                <tr>
-                                    <td>Chromium (Cr)</td>
-                                    <td>0.50-1.00</td>
-                                    <td>1.00, MAX</td>
-                                    <td>1.00, MAX</td>
-                                </tr>
-                                <tr>
-                                    <td>Molybdenum (Mo)</td>
-                                    <td>0.10-0.30</td>
-                                    <td>0.10-0.30</td>
-                                    <td>0.10-0.30</td>
-                                </tr>
-                                <tr>
-                                    <td>Manganese (Mn)</td>
-                                    <td>0.20-0.40</td>
-                                    <td>0.20-0.40</td>
-                                    <td>0.20-0.40</td>
-                                </tr>
-                                <thead class="thead-dark">
-                                    <tr>
-                                        <th scope="col" colspan="4">Mechanical Properties</th>
-                                    </tr>
-                                    </thead>
-                                <tbody>
-                                <tr>
-                                    <td>Hardness (HSC)</td>
-                                    <td>55-60</td>
-                                    <td>60-65</td>
-                                    <td>65-70</td>
-                                </tr>
-                                <tr>
-                                    <td>Tensile Strength (N/mm2)</td>
-                                    <td colspan="3">250-400</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                </div> -->
 
-                    <div class="col-4 d-flex justify-content-center pdt-graph align-self-center">
-                        <img src="./images/pdt-1-graph.png" alt="pdt-1-graph" srcset="">
-                    </div> -->
-                </div>
-
-                <div class="row indi-pdt hide" id="pdt-6">
+                <!-- <div class="row indi-pdt hide" id="pdt-6">
                     <div class="col-12 pdt-title align-self-center">
                         Forged Rolls
                     </div>
@@ -802,14 +656,6 @@
                         </div>
                     </div>
 
-                    <!-- <div class="col-8 pdt-appli align-self-center">
-                        <div class="appli-name">Applications</div>
-                        <div class="appli-content">
-                            It can be used in intermediate and finishing stands for bar, sections and wire rod mills.
-                            These rolls produce excellent results in plate and section finishing.
-                        </div>
-                    </div> -->
-                   
                     <div class="col-7 mr-5 pdt-data  align-self-center">
                         <table class="table table-sm table-hover table-bordered">
                             <thead class="thead-dark">
@@ -909,13 +755,9 @@
                     <div class="col-4 pdt-img align-self-center">
                         <img src="./images/pdt-5-img.png" alt="pdt-5-image">
                     </div>
+                </div> -->
 
-                    <!-- <div class="col-4 d-flex justify-content-center pdt-graph align-self-center">
-                        <img src="./images/pdt-1-graph.png" alt="pdt-1-graph" srcset="">
-                    </div> -->
-                </div>
-
-                <div class="row indi-pdt hide" id="pdt-7">
+                <!-- <div class="row indi-pdt hide" id="pdt-7">
                     <div class="col-12 pdt-title align-self-center">
                         Machinery Rolls
                     </div>
@@ -1020,95 +862,14 @@
                             </ul>
                         </div>
                     </div>
-                   
-                    <!-- <div class="col-4 pdt-img align-self-center">
-                        <img src="./images/pdt-1-img.png" alt="pdt-1-image">
-                    </div> -->
-                    
-                    <!-- <div class="col-7 mr-5 pdt-data  align-self-center">
-                        <table class="table table-sm table-hover table-bordered">
-                            <thead class="thead-dark">
-                                <tr>
-                                    <th>Indefinite Chilled Cast Iron Rolls</th>
-                                    <th>ICR1</th>
-                                    <th>ICR2</th>
-                                    <th>ICR3</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <thead class="thead-dark">
-                                    <tr>
-                                        <th scope="col" colspan="4">Composition (%wt)</th>
-                                    </tr>
-                                    </thead>
-                                <tbody>
-                                <tr>
-                                    <td>Carbon (C)</td>
-                                    <td>2.90-3.30</td>
-                                    <td>3.00-3.30</td>
-                                    <td>3.20-3.50</td>
-                                </tr>
-                                <tr>
-                                    <td>Silicon (Si)</td>
-                                    <td>0.80, MAX</td>
-                                    <td>0.80, MAX</td>
-                                    <td>0.80, MAX</td>
-                                </tr>
-                                <tr>
-                                    <td>Nickel (Ni)</td>
-                                    <td>0.50-0.80</td>
-                                    <td>0.80-1.20</td>
-                                    <td>1.20-1.50</td>
-                                </tr>
-                                <tr>
-                                    <td>Chromium (Cr)</td>
-                                    <td>0.50-1.00</td>
-                                    <td>1.00, MAX</td>
-                                    <td>1.00, MAX</td>
-                                </tr>
-                                <tr>
-                                    <td>Molybdenum (Mo)</td>
-                                    <td>0.10-0.30</td>
-                                    <td>0.10-0.30</td>
-                                    <td>0.10-0.30</td>
-                                </tr>
-                                <tr>
-                                    <td>Manganese (Mn)</td>
-                                    <td>0.20-0.40</td>
-                                    <td>0.20-0.40</td>
-                                    <td>0.20-0.40</td>
-                                </tr>
-                                <thead class="thead-dark">
-                                    <tr>
-                                        <th scope="col" colspan="4">Mechanical Properties</th>
-                                    </tr>
-                                    </thead>
-                                <tbody>
-                                <tr>
-                                    <td>Hardness (HSC)</td>
-                                    <td>55-60</td>
-                                    <td>60-65</td>
-                                    <td>65-70</td>
-                                </tr>
-                                <tr>
-                                    <td>Tensile Strength (N/mm2)</td>
-                                    <td colspan="3">250-400</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div> -->
-
-                    <!-- <div class="col-4 d-flex justify-content-center pdt-graph align-self-center">
-                        <img src="./images/pdt-1-graph.png" alt="pdt-1-graph" srcset="">
-                    </div> -->
-                </div>
+                </div> -->
 
             </div>
         </div>
     </div>
 </div>
 
-<div class="performance-wrapper mt-5" id="performance">
+<!-- <div class="performance-wrapper mt-5" id="performance">
     <div class="container">
         <div class="row">
             <div class="col-3 justify-content-center">
@@ -1132,9 +893,9 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
-<div class="about-wrapper mt-5" id="about-us">
+<!-- <div class="about-wrapper mt-5" id="about-us">
     <div class="container">
         <div class="row">
             <div class="col-12 about-heading d-flex justify-content-center">
@@ -1166,9 +927,9 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
-<div class="quality-wrapper my-5">
+<!-- <div class="quality-wrapper my-5">
     <div class="container">
         <div class="row">
             <div class="col-12 quality-heading d-flex justify-content-center" id="quality">
@@ -1213,7 +974,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
 <footer>
     <div class="container">
@@ -1254,7 +1015,6 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<script src="./main.js"></script>
 
 </body>
 </html>

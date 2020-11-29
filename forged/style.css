@@ -17,9 +17,14 @@ nav.navbar .navbar-brand{
 
 .navbar-nav .nav-item {
     margin: 0 15px !important;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: whitesmoke !important;
     transition: all 0.1s ease-in-out;
+}
+
+.navbar-nav .nav-item.active {
+    background-color: lightblue;
+    color: #134872 !important;
 }
 
 .navbar-nav .nav-item:hover{
@@ -92,15 +97,9 @@ nav.navbar .navbar-brand{
 } */
 
 .products-wrapper-1 .products-names .product-box{
-    height: 250px;
-    width: 250px;
+    height: 600px;
+    width: 300px;
     color: whitesmoke;
-    cursor: pointer;
-}
-
-.products-wrapper-1 .products-names .product-box a:hover{
-    color: white;
-    text-decoration: none;
 }
 
 .pdt-odd{
@@ -129,10 +128,8 @@ nav.navbar .navbar-brand{
 }
 
 .products-wrapper-1 .products-names .pdt-name{
-    font-size: 1.5rem !important;
-    text-align: center !important;
-    color: white !important;
-
+    font-size: 2rem;
+    text-align: center;
 }
 
 .pdt-info-wrapper .pdt-info-heading-main{
