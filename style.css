@@ -111,7 +111,7 @@ nav.navbar .navbar-brand:hover{
     transform: scale(1.05);
     z-index: 1000;
     border-radius: 20px;
-    transition: all 0.8s ease-in-out;
+    transition: all 0.1s ease-in-out;
 }
 
 .products-wrapper-1 .products-names .product-box a:hover{
@@ -222,6 +222,7 @@ nav.navbar .navbar-brand:hover{
     font-size: 3rem;
     font-weight: 700;
     text-transform: uppercase;
+    padding-left: 30px;
 }
 
 .about-wrapper .about-content{
@@ -237,6 +238,7 @@ nav.navbar .navbar-brand:hover{
     font-size: 3rem;
     font-weight: 700;
     text-transform: uppercase;
+    padding-left: 30px;
 }
 
 .quality-wrapper .quality-content{
@@ -254,4 +256,5 @@ nav.navbar .navbar-brand:hover{
 
 footer{
     background-color: #14213d;
+    margin-top: 50px;
 }
