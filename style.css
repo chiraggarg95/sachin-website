@@ -100,9 +100,14 @@ nav.navbar .navbar-brand:hover{
     text-align: center;
 } */
 
+.products-wrapper-1 .products-names{
+    /* max-width: fit-content; */
+    width: 99.9vw;
+}
+
 .products-wrapper-1 .products-names .product-box{
     height: 250px;
-    width: 250px;
+    /* width: calc( 100vw * 0.25 ); */
     color: whitesmoke;
     cursor: pointer;
 }
@@ -257,4 +262,6 @@ nav.navbar .navbar-brand:hover{
 footer{
     background-color: #14213d;
     margin-top: 50px;
+    color: white;
+    padding: 40px;
 }
