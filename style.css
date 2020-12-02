@@ -265,3 +265,78 @@ footer{
     color: white;
     padding: 40px;
 }
+
+
+/* Mobile View Optimisations */
+
+.navbar-toggler-icon{
+    color: white;
+}
+
+nav{
+    width: 100%;
+}
+
+@media all and (max-width:576px) {
+    
+    .landing .tagline{
+        font-size: 1.6rem;
+    }
+    
+    .landing .caption{
+        font-size: 1rem;
+    }
+
+    .products-wrapper-1 .pdt-heading div.pdt-number{
+        font-size: 1.5rem;
+    }
+
+    .products-wrapper-1 .products-names .product-box{
+        height: 40px;
+    }
+
+    .products-wrapper-1 .products-names .pdt-name{
+        font-size: 1rem !important;    
+        min-height: 100px;
+        justify-content: center;
+        align-self: center;    
+    }
+
+
+    .performance-wrapper .number{
+        font-size: 1.5rem;
+    }
+    
+    .performance-wrapper .text{
+        font-size: 1.1rem;
+    }
+
+
+
+    .quality-wrapper .quality-content{
+        font-size: 1rem;
+    }
+
+    .about-wrapper .about-content{
+        font-size: 1rem;
+    }
+
+
+    .quality-wrapper .quality-img img{
+        height: 100px;
+        width: auto;
+    }
+
+    .about-wrapper .about-img img{
+        height: 100px;
+        width: auto;
+    }
+
+    .quality-wrapper .quality-heading{
+        font-size: 2rem;
+    }
+
+    .about-wrapper .about-heading{
+        font-size: 2rem;
+    }
+}
