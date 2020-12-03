@@ -20,12 +20,12 @@
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-            <a class="nav-item nav-link active mr-2 ml-2" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link mr-2 ml-2" onclick="scrollto('about-us')">About Us</a>
-            <a class="nav-item nav-link mr-2 ml-2" onclick="scrollto('product-names')">Products</a>
-            <a class="nav-item nav-link mr-2 ml-2" onclick="scrollto('performance')">Performance</a>
-            <a class="nav-item nav-link mr-2 ml-2" onclick="scrollto('quality')">Quality</a>
-            <a class="nav-item nav-link mr-2 ml-2" onclick="scrollto('contact')">Contact Us</a>
+            <a class="nav-item nav-link active mr-2 ml-2" onclick="hide_menu()" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link mr-2 ml-2" onclick="scrollto('about-us'); hide_menu();">About Us</a>
+            <a class="nav-item nav-link mr-2 ml-2" onclick="scrollto('product-names'); hide_menu();">Products</a>
+            <a class="nav-item nav-link mr-2 ml-2" onclick="scrollto('performance'); hide_menu();">Performance</a>
+            <a class="nav-item nav-link mr-2 ml-2" onclick="scrollto('quality'); hide_menu();">Quality</a>
+            <a class="nav-item nav-link mr-2 ml-2" onclick="scrollto('contact'); hide_menu();">Contact Us</a>
         </div>
     </div>
 </nav>
@@ -1229,20 +1229,20 @@
 <footer id="contact">
     <div class="">
       <div class="row">
-          <div class="col-4 contact-us">
+          <div class="col-sm-4 col-6 contact-us">
               <h3>Contact Us</h3>
           </div>
-          <div class="col-8 d-flex justify-content-center manu-units">
+          <div class="col-sm-8 col-6 d-flex justify-content-center manu-units">
               <h3>Manufacturing Units</h3>
           </div>
-          <div class="col-4">
+          <div class="col-sm-4 col-6">
             <i class="fa fa-envelope mail-icon"></i>
             :       <a href="mailto:jpanrolls@gmail.com" class="mail-add">jpanrolls@gmail.com</a>
             <br>
             <i class="fa fa-phone phone-icon" aria-hidden="true"></i>
-            :       <a href="tel:+91-9892256772" class="phone-no">+91-9892256772</a> / <a href="tel:+91-7010351968" class="phone-no">+91-7010351968</a> 
+            :       <a href="tel:+91-9892256772" class="phone-no">+91-9892256772</a> / <a href="tel:+91-7010351968" class="phone-no">+91-7010351968</a>  <br> / <a href="tel:+91 95927 57591" class="phone-no">+91 95927 57591</a> 
           </div>
-          <div class="col-8">
+          <div class="col-sm-8 col-6">
               <div class="row">
                   <div class="col-sm-4 col-12">
                       <h5 class="manu-head">JPAN ROLLS INDIA</h5>

@@ -58,4 +58,12 @@ function scrollto(id){
     behavior: 'smooth'
     });
 
+    console.log("Hi");
+
+}
+
+function hide_menu() {
+    console.log("HI");
+    // document.getElementsByClassName("collapse")[0].collapse('hide');
+    $(".collapse").collapse('hide');
 }
