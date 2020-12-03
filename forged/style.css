@@ -232,4 +232,61 @@ nav.navbar .navbar-brand:hover{
 footer{
     background-color: #14213d;
     margin-top: 50px;
+    color: white;
+    padding: 40px;
+}
+
+footer .contact-us, .manu-units{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+footer .mail-icon, .phone-icon{
+    color: white;
+    font-size: 1.2rem;
+}
+
+footer .mail-add, .phone-no{
+    color: white;
+    font-size: 1.2rem;
+}
+
+footer .manu-head{
+    margin-bottom: 20px;
+}
+
+/* Mobile View Optimisation */
+
+@media all and (max-width:576px) {
+
+    .pdt-info-wrapper .pdts-info-container .pdt-graph img{
+        width: 100%;
+        height: auto;
+    }
+
+    footer{
+        padding: 20px;
+    }
+    
+    footer .contact-us h3{
+        font-size: 1rem;
+    }
+
+    footer .manu-units h3{
+        font-size: 1rem;
+    }
+    
+    footer .mail-icon, .phone-icon{
+        font-size: 0.8rem;
+    }
+    
+    footer .mail-add, .phone-no{
+        font-size: 0.8rem;
+    }
+    
+    footer .manu-head{
+        margin-bottom: 20px;
+        font-size: 1rem;
+    }
+
 }
