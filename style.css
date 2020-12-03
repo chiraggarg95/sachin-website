@@ -37,7 +37,7 @@ nav.navbar .navbar-brand:hover{
 }
 
 .landing .lander-content{
-    height: 60%;
+    height: 60%;;
     padding: 10% 5%;
 }
 
@@ -102,7 +102,8 @@ nav.navbar .navbar-brand:hover{
 
 .products-wrapper-1 .products-names{
     /* max-width: fit-content; */
-    width: 99.9vw;
+    width: 98.9vw;
+    margin: 0px;
 }
 
 .products-wrapper-1 .products-names .product-box{
@@ -210,6 +211,7 @@ nav.navbar .navbar-brand:hover{
 .performance-wrapper{
     background-color: #555F73;
     color: white;
+    margin-top: 5px;
 }
 
 .performance-wrapper .number{
@@ -266,6 +268,26 @@ footer{
     padding: 40px;
 }
 
+footer .contact-us, .manu-units{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+footer .mail-icon, .phone-icon{
+    color: white;
+    font-size: 1.2rem;
+}
+
+footer .mail-add, .phone-no{
+    color: white;
+    font-size: 1.2rem;
+}
+
+footer .manu-head{
+    margin-bottom: 20px;
+}
+
+
 
 /* Mobile View Optimisations */
 
@@ -287,19 +309,31 @@ nav{
         font-size: 1rem;
     }
 
+    .products-wrapper-1 .products-names .product-box{
+        height: 100px;
+    }
+
     .products-wrapper-1 .pdt-heading div.pdt-number{
         font-size: 1.5rem;
     }
 
-    .products-wrapper-1 .products-names .product-box{
-        height: 40px;
+    .products-wrapper-1 .products-names .pdt-name-wrapper{
+        height: 100px;
     }
-
+    
     .products-wrapper-1 .products-names .pdt-name{
         font-size: 1rem !important;    
-        min-height: 100px;
+        display: flex;
+        vertical-align: middle;
         justify-content: center;
-        align-self: center;    
+        align-self: center; 
+
+    }
+
+    
+    
+    .performance-wrapper{
+        margin-top: 100px;
     }
 
 
@@ -316,27 +350,68 @@ nav{
     .quality-wrapper .quality-content{
         font-size: 1rem;
     }
+    
+    .about-wrapper .about-heading{
+        font-size: 2.9rem;
+        justify-content: center;
+    }
 
     .about-wrapper .about-content{
         font-size: 1rem;
     }
+    
+    .about-wrapper .about-img img{
+        height: 100px;
+        width: auto;
+    }
+    
+    .about-wrapper .about-img{
+        display: flex;
+        justify-content: center;
+    }
 
+    .quality-wrapper .quality-heading{
+        font-size: 2.9rem;
+        justify-content: center;
+    }
+
+    .quality-wrapper .quality-content{
+        font-size: 1rem;
+    }
 
     .quality-wrapper .quality-img img{
         height: 100px;
         width: auto;
     }
 
-    .about-wrapper .about-img img{
-        height: 100px;
-        width: auto;
+    .quality-wrapper .quality-img{
+        display: flex;
+        justify-content: center;
     }
 
-    .quality-wrapper .quality-heading{
-        font-size: 2rem;
+    footer{
+        padding: 20px;
+    }
+    
+    footer .contact-us h3{
+        font-size: 1rem;
     }
 
-    .about-wrapper .about-heading{
-        font-size: 2rem;
+    footer .manu-units h3{
+        font-size: 1rem;
     }
+    
+    footer .mail-icon, .phone-icon{
+        font-size: 0.8rem;
+    }
+    
+    footer .mail-add, .phone-no{
+        font-size: 0.8rem;
+    }
+    
+    footer .manu-head{
+        margin-bottom: 20px;
+        font-size: 1rem;
+    }
+
 }
